@@ -97,8 +97,8 @@ if __name__ == '__main__':
         print("\n--- 추출 완료 ---")
 
         # 추출된 콘텐츠를 파일에 저장할 수도 있습니다.
-        with open("wiki_content_all.txt", "w", encoding="utf-8") as f:
+        with open("wiki_content_all.md", "w", encoding="utf-8") as f:
             f.write(full_text)
-        print("전체 콘텐츠가 'wiki_content_all.txt' 파일에 저장되었습니다.")
+        print("전체 콘텐츠가 'wiki_content_all.md' 파일에 저장되었습니다.")
     else:
         print("추출된 콘텐츠가 없습니다.")
